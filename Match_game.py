@@ -11,8 +11,7 @@ def optimal_take_away(stick_num):
         else:
             return stick_num
 
-# 该游戏作者为西南大学工程技术学院2018级陈鹏宇
-print('该游戏作者为西南大学工程技术学院机械设计制造及其自动化2018级陈鹏宇，祝您游戏愉快！')
+
 stick_num=random.randint(60,100)
 print('现有{}根火柴'.format(stick_num))
 for i in range(stick_num):
